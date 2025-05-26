@@ -6,11 +6,11 @@ using namespace std;
 int main() {
     double x, y;
 
-    // Ввод x
-    cout << "Введите x: ";
+    
+    cout << "Р’РІРµРґРёС‚Рµ x: ";
     cin >> x;
 
-    // Вычисляем y(x) в зависимости от условия
+   
     if (x <= -3) {
         y = atan(sqrt(fabs(x))) + 3;
     }
@@ -21,8 +21,8 @@ int main() {
         y = pow(x, 4) + pow(3, -x) * pow(x, -5);
     }
 
-    // Вывод результата
-    cout << "y(" << x << ") = " << y << endl;
+  
+    cout << y << endl;
 
     return 0;
 }
